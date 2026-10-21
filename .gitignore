@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Secrets and local config (never commit these)
+.env
+.env.*
+*.key
+*.pem
+credentials*.json
+*token*
+
+# Real exports and personal data
+real-data/
+*.private.json
+*.private.csv
+
+# Logs
+*.log
